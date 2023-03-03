@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#container{
+    border-radius: 2%;
+    margin: 100px 1500px;
+    width: 4800px;
+    height: 3400px;
+    background-color: rgba(0, 0, 0, 0.5 );
+    padding: 400px;
+}
+
+header{
+    text-align: center;
+}
+
+img{
+    width: 1000px;
+    height: auto;
+} 
+
+h1{
+    color: #00dd00;
+    font-size: 150px;
+}
+
+nav{
+    background-color: #00dd00;
+    text-align: center;
+    padding: 50px;
+    margin: 10px;
+    word-spacing: 10px;
+}
+
+nav > button{
+    padding: 10px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 55px;
+}
+
+main > div{
+    padding: 70px;
+    padding-left: 0;
+}
+
+input[type=checkbox]{
+   width: 40px;
+   height: 40px;
+   margin-right: 30px;
+}
+h2{
+    display: inline-block;
+    font-size: 100px;
+}
+
+h3{
+    font-size: 60px;
+}
+
+main h2,h3 {
+    color: white;
+    font-weight: normal;
+    margin: 10px;
+}
+
+.Adresse:before{
+    content: "\21A6"
+}
+
+#GoldBar{
+    background-color: rgb(202, 202, 69);
+    width: 1000px;
+}
+
+#GreenBar{
+    background-color: darkolivegreen;
+    width: 1900px;
+}
+
+#RedBar{
+    background-color: darkred;
+    width: 700px;
+    
+}
+
+main hr{
+    border-radius: 20px;
+    height: 100px;
+    border: none;
+}
